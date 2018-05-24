@@ -62,4 +62,14 @@ public class MathUtilitiesTest
         //Then
         assertEquals(expected, actual, DELTA);
     }
+    
+    @Test
+    public void testIsOdd_forOddNumber(){
+        assertTrue(utilities.isOdd(7));
+    }
+    
+    @Test
+    public void testIsOdd_forEvenNumber(){
+        assertFalse(utilities.isOdd(12));
+    }
 }

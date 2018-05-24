@@ -11,5 +11,9 @@ public class MathUtilities{
     public double half(int number) {
         return -1;
     }
+    
+    public boolean isOdd(int number){
+        return false;
+    }
 
 }
