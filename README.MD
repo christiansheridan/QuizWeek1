@@ -31,3 +31,7 @@ Make all the tests in the `StringUtilitiesTest` class pass. All the methods have
 
 ## Section 3 - Bonus
 This section is optional, but highly encourage you to complete. Make all the tests in the `BonusTest` class pass. All the methods have been stubbed out for you in the `Bonus` class. Each of the method has a comment above it to describe the expected behavior. Look at the test case to see example of input and expected output.
+
+  - `int factorial(int number)`
+  - `String acronym(String phrase)`
+  - `String encrypt(String word)`
