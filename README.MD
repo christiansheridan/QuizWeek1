@@ -1,6 +1,5 @@
 # Quiz 1
-You have one hour to complete this quiz. You are required to do section 1 & 2. 
-Section 3 is a bonus section, which means do it if you finish the other two sections before the hour is up.
+You have two hours to complete this quiz. Make sure your code compile when you submit the PR!
 
 ### **Instructions:**
 
@@ -30,11 +29,10 @@ Make all the tests in the `StringUtilitiesTest` class pass. All the methods have
   - `String removeCharacter(String value, char charToRemove)`
   - `String getLastWord(String value)`
 
-## Section 3 - Bonus
-This section is optional, but highly encourage you to complete. 
-Make all the tests in the `BonusTest` class pass. All the methods have been stubbed 
-out for you in the `Bonus` class. 
-Each of the method has a comment above it to describe the expected behavior. 
+## Section 3 - LoopFun
+Make all the tests in the `LoopFunTest` class pass. All the methods have been stubbed
+out for you in the `LoopFun` class.
+Each of the method has a comment above it to describe the expected behavior.
 Look at the test case to see example of input and expected output.
 
   - `int factorial(int number)`

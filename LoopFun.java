@@ -1,4 +1,4 @@
-public class Bonus
+public class LoopFun
 {
 
       /**
