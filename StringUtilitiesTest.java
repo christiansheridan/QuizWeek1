@@ -26,6 +26,19 @@ public class StringUtilitiesTest {
     }
     
     @Test
+    public void testGetMiddleCharacter_ForOddWord(){
+        //Given
+        String word = "disinformations";
+        char expected = 'r';
+        
+        //When
+        char actual = utilities.getMiddleCharacter(word);
+        
+        //Then
+        assertEquals(expected, actual);
+    }
+    
+    @Test
     public void testGetMiddleCharacter_ForEvenWord(){
         //Given
         String word = "dogs";
