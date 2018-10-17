@@ -16,7 +16,7 @@ public class LoopFun
        * the first character of each word in upper case.
        * For example, given "Ruby on Rails", this method will return "ROR"
        * @param phrase
-       * @return Upper case of the first letter of each word
+       * @return Upper case string of the first letter of each word
        */
       public String acronym(String phrase) {
           return null;
