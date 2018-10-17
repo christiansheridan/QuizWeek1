@@ -23,8 +23,8 @@ public class LoopFun
       }
 
       /**
-       * To prevent anyone from reading our messages, we can encrypt it so it will not be readable by anyone except it
-       * intended audience. This method encrypt the message by shifting the character by 3 characters. If the character is
+       * To prevent anyone from reading our messages, we can encrypt it so it will only be readable by its
+       * intended audience. This method encrypt the message by shifting the letter by 3 characters. If the character is
        * at the end of the alphabet, it will wraps around.
        * For example:
        *  'a' => 'd'
