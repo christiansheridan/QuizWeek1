@@ -26,7 +26,7 @@ public class StringUtilitiesTest {
     }
     
     @Test
-    public void testGetMiddleCharacter_ForOddWord(){
+    public void testGetMiddleCharacter_ForLongOddWord(){
         //Given
         String word = "disinformations";
         char expected = 'r';
