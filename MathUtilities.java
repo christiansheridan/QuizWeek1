@@ -6,7 +6,7 @@ public class MathUtilities{
    * @return the sum of the two numbers
    */
   public int add(int num1, int num2){
-      return -1;
+      return num1 + num2;
   }
 
   /**
@@ -16,7 +16,7 @@ public class MathUtilities{
    * @return the sum of the two numbers
    */
   public double add(double num1, double num2){
-      return -1;
+      return num1 + num2;
   }
 
   /**
@@ -25,7 +25,8 @@ public class MathUtilities{
    * @return the half of the number in double
    */
   public double half(int number) {
-      return -1;
+      double number1 = number;
+      return number1/2;
   }
 
   /**
@@ -34,7 +35,9 @@ public class MathUtilities{
    * @return true if the number is odd, false if it is even
    */
   public boolean isOdd(int number){
-      return false;
+      if (number % 2 == 0){
+      return false;}
+      else {return true;}
   }
 
 
@@ -44,7 +47,7 @@ public class MathUtilities{
    * @return the result of the number multiply by itself
    */
   public int square(int number) {
-      return -1;
+      return number * number;
   }
 
 }
