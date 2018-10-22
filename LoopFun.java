@@ -26,22 +26,23 @@ public class LoopFun
     public String acronym(String phrase) {
        
         String[] parts = phrase.split(" ");
-        /* This is what I wanted to do
+        //This is what I wanted to do
         int i;
         int lengthOfString = parts.length;
+        String part1 = "";
         for (i = 0; i < lengthOfString; i++){
-        String part1 = parts[i];
-        String part2 = part1.substring(0,1).toUpperCase();
-      
-    }*/
+         part1 += parts[i].substring(0,1).toUpperCase();
+        }
+        return part1;
+    }
         
-        String part1 = parts[0];
+        /*String part1 = parts[0];
         String part2 = parts[1];
         String part3 = parts[2];
         
         String q = part1.substring(0,1).toUpperCase() + part2.substring(0,1).toUpperCase() + part3.substring(0,1).toUpperCase();
-        return q;
-    }
+        return q;*/
+    
 
     /**
      * To prevent anyone from reading our messages, we can encrypt it so it will only be readable by its
@@ -56,6 +57,15 @@ public class LoopFun
      * @return the encrypted string by shifting each character by three character
      */
     public String encrypt(String word) {
-        return null;
-    }
-}
+        String word2 = "";
+        int i;
+        int lengthOfChar = word.length();
+        for(i = 0; i <lengthOfChar; i++){
+            char c = word.charAt(i);
+            if (c > 'w')
+            word2+= (char)(word.charAt(i) -23);
+            else
+            word2+= (char)(word.charAt(i) + 3);} 
+            return word2;
+            }
+        }
